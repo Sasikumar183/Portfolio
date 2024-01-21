@@ -1,0 +1,7 @@
+@import url(./assets/component/color.css);
+.App{
+    background-color: var(--bg-color);
+}
+html{
+    scroll-behavior: smooth;
+}

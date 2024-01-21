@@ -1,0 +1,132 @@
+footer{
+    background: rgb(7,1,47);
+    background: linear-gradient(90deg, rgb(12, 12, 14) 54%, rgb(0, 0, 0) 79%);
+    display: flex;
+    justify-content: space-;
+    flex-direction: column;
+    margin:50px 0px 0px 0px;
+}
+footer h1{
+    text-align: center;
+    color:aqua;
+    text-shadow: 2px 2px 5px wheat;
+}
+#conl,#conls{
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+.conlist{
+    padding:20px;
+}
+.conlist li{
+    list-style-type: none;
+    padding:10px;
+}
+.conlist img{
+    position:relative;
+    top:20px;
+}
+.conlist img:hover{
+    background-color: orangered;
+    border-radius: 45%;
+}
+#conl:hover{
+
+    color:orangered;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding:40px;
+}
+.form input,.form textarea{
+    background-color: rgb(49, 45, 45);
+    color:white;
+    font-size: 20px;
+    width: 200%;
+    margin-right: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+.form ::placeholder{
+    color:white;
+    padding: 5px;
+    text-align: center;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.form input:hover,.form textarea:hover,.form input:focus,.form textarea:focus{
+    box-shadow: 2px 2px 12px wheat;
+    border: none;
+}
+#subbtn{
+    cursor:pointer;
+    padding:10px;
+    font-size: 17px;
+    border-radius: 10px;
+    width: 100%;
+    background-color:aquamarine;
+    color:rgb(0, 0, 0);
+    box-shadow: 1px 1px 20px rgb(23, 153, 142);
+}
+#subbtn:hover{
+    background-color: black;
+    color:aquamarine;
+    box-shadow: 4px 4px 14px white,8px 8px 28px lightcyan;
+}
+#resume{
+    cursor: pointer;
+    background-color: orange;
+    color:white;
+    padding:10px;
+    border-radius: 7px;
+    margin:40px;
+}
+#resume:hover{
+    color:wheat;
+    color: rgb(114, 83, 25);
+}
+
+@media screen and (max-width:840px) {
+    .foot{
+        flex-direction: column;
+        margin-left: 10%;
+    }
+    .form{
+        margin-right: 20%;
+        }
+    .form input,.form textarea{
+        font-size: 15px;
+        width:100%;
+        padding: 5px;
+        margin-right:0%;
+    }
+    #conl,#conls{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width:400px){
+    #conl{
+        font-size: 10px;
+    }
+    .form{
+        font-size: 15px;
+        padding: 5px;
+    }
+    .form input,.form textarea{
+        font-size: 16px;
+        padding:5px;
+    }
+} 
